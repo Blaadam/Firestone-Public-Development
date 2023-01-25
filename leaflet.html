@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>tiles</title>
+    <title>newmap</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,7 +39,7 @@
           crs: crs
         });
         
-        layer = L.tileLayer('{z}/{x}/{y}.png', {
+        layer = L.tileLayer('{z}/{x}/{y}.jpg', {
           minZoom: mapMinZoom, maxZoom: mapMaxZoom,
           tileSize: L.point(512, 512),
           attribution: '<a href="https://www.maptiler.com/engine/">Rendered with MapTiler Engine</a>, non-commercial use only',
